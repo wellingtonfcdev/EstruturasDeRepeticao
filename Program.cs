@@ -16,4 +16,9 @@ while(contWhile <= 10)
 {
     Console.WriteLine($"{numero} x {contWhile} = {numero * contWhile}");
     contWhile++;
+
+    if(contWhile == 9)
+    {
+        break;
+    }
 }
